@@ -2,7 +2,7 @@
 const shoppinglist = []; 
 
 // Function to handle adding an item to the shopping list
-function inputItem(){
+function Inputitem(){
     const itemInput = document.getElementById('itemInput');
     const itemValue = itemInput.value.trim();
 
@@ -30,7 +30,7 @@ function inputItem(){
     }
 };
          // purchased
-const markpurchased = () => {
+const Markpurchased = () => {
     const listItems = document.querySelectorAll('#list li');
     
      // Loop through each list item and toggle the 'purchased' class
@@ -40,7 +40,7 @@ const markpurchased = () => {
 };
 
 // Function to clear all items from the shopping list
-function clearlist() {
+function Clearlist() {
     const list = document.getElementById('list');
     list.innerHTML = '';
 }
