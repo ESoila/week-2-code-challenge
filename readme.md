@@ -1,3 +1,6 @@
+ Interactive Shopping List live link.
+https://esoila.github.io/week-2-code-challenge/
+
 ## Interactive Shopping List
 This project is a simple interactive shopping list implemented with HTML, JavaScript, and CSS for styling. Users can add, mark, and clear items from the list.
 
